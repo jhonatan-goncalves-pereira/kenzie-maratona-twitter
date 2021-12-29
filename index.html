@@ -90,7 +90,7 @@
                 <form action="#" class="conteudoPrincipal__formulario">
                     <textarea name="textoTweet" placeholder="O que está acontecendo?" ></textarea>
                 
-                    <button type="submit">Tweetar</button>
+                    <button class='postar' type="submit">Tweetar</button>
                 </form>
 
                 <!-- FEED DE NOTÍCIAS -->
@@ -107,7 +107,9 @@
                             <div class="tweet__conteudo">
                                 <h2>Hudson Carolino</h2>
                                 <span>@hudsoncarolino 14s</span>
-                                <p>98% de #empregabilidade? Só na Kenzie... Pois é, 98% dos alunos formados estão trabalhando na área menos de 1 mês após a graduação #ninguemmesegura 🤯</p>
+                                <p>98% de #empregabilidade? Só na Kenzie... Pois é, 98% dos alunos formados estão trabalhando na área menos de 1 mês após a graduação <span class="hashtag">
+                                    #ninguemmesegura
+                                </span> 🤯</p>
                             </div>
 
                         </li>
@@ -120,7 +122,9 @@
                             <div class="tweet__conteudo">
                                 <h2>Maria Porcina</h2>
                                 <span>@mariap.na 14s</span>
-                                <p>Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer. Ele pode ter algumas hashtags também. #likethis </p>
+                                <p>Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer. Ele pode ter algumas hashtags também. 
+                                   <span class="hashtag">#likethis</span>  
+                                </p>
                             </div>
 
                         </li>
@@ -135,21 +139,25 @@
                                 <span>@danielkenzie 14s</span>
                                 <p>MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que, 
                                     até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia. 
-                                    É hora de se preparar... #VouSerDev #DoZeroAoCodigo
+                                    É hora de se preparar... <span class="hashtag">#VouSerDev #DoZeroAoCodigo</span>
                                 </p>
                             </div>
 
                         <!-- NOTÍCIA -->
                         <li class="conteudoPrincipal__tweet">
                             <!-- IMAGEM DO USUÁRIO -->
-                            <img class="tweet__fotoPerfil" width="40px" src="./assets/img/eu 1X1.jpg" alt="Daniel">
+                            <img class="tweet__fotoPerfil" width="40px" src="./assets/img/eu 1X1.jpg" alt="Jhonatan">
 
                             <!-- CAIXA COM INFORAMÇÕES DO USUÁRIO -->
                             <div class="tweet__conteudo">
-                                <h2>Jhonatan Gonçalves Pereira</h2>
+                                <h2>Jhonatan Gonçalves Pereira <img src="./assets/img/marca-de-verificacao.png"></h2>
                                 <a href="https://twitter.com/Jhonata73967120" target="_blank" rel="noopener noreferrer">
-                                    <span>@Jhonata73967120 </span> (clique aqui)
+                                    @Jhonata73967120  
+                                    <span class="perfil">
+                                        Ver perfil 
+                                    </span>
                                 </a>
+                                <span class="tempo"> 14s</span>
                                 <p>
                                     &#128187;| 𝙱. 𝚎𝚖 𝚂.𝙸. 2021.1 - IFCE
                                     &#128188;| 𝙸. 𝙲. - 𝙿𝙸𝙱𝙸𝙲 - CNPq
